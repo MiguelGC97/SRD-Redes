@@ -1,0 +1,13 @@
+[Match]
+Name=enp0s3
+
+[Network]
+LinkLocalAddressing=ipv6
+Address=192.168.7.10/24
+DNS=192.168.7.200
+Domains=miguelgc.edu
+
+[Route]
+Destination=192.168.7.0/24
+Gateway=192.168.7.1
+Metric=100
