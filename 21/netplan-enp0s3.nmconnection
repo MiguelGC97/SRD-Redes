@@ -1,0 +1,13 @@
+[connection]
+id=netplan-enp0s3
+type=ethernet
+interface-name=enp0s3
+
+[ethernet]
+wake-on-lan=0
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=ignore
